@@ -1,36 +1,20 @@
 # Adventdalen Weather Data Analysis
 
-This repository contains Python code for analyzing temperature data from the Adventdalen weather station. The analysis includes various plots that highlight temperature trends over time, with a specific focus on August data, monthly averages, and overall trends.
+This script downloads and analyzes temperature data from the Adventdalen weather station. It generates several visualizations to highlight temperature trends over time.
 
-## Table of Contents
+## What the Script Does
 
-- [Overview](#overview)
-- [Data Source](#data-source)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Plots](#plots)
-  - [August Average Temperatures](#august-average-temperatures)
-  - [3x4 Grid of Monthly Average Temperatures](#3x4-grid-of-monthly-average-temperatures)
-  - [Overall Temperature Trend](#overall-temperature-trend)
-- [Contributing](#contributing)
-- [License](#license)
+1. **Downloads and Unzips Data**: Automatically downloads the weather data from the UNIS Weather Data Portal and extracts it for analysis.
 
-## Overview
+2. **Processes the Data**: Loads the data, assigns proper column names, and prepares it for visualization.
 
-This project analyzes temperature data from the Adventdalen weather station. The code is designed to download the data, preprocess it, and generate various plots that help in understanding temperature trends over time. The plots include:
+3. **Generates Plots**:
+   - **August Average Temperatures**: Focuses on August data, showing a trendline to highlight changes over time.
+   - **3x4 Grid of Monthly Average Temperatures**: Creates a grid of subplots for each month, showing monthly averages and trendlines.
+   - **Overall Temperature Trend**: Plots the entire dataset with a trendline to display long-term temperature trends.
 
-- A focused analysis of August temperatures.
-- A grid of subplots for each month's average temperature.
-- An overall temperature trend plot with a trendline.
+## Repository
 
-## Data Source
+You can find the script in the following GitHub repository:
 
-The data used in this analysis is sourced from the [UNIS Weather Data Portal](http://met.unis.no/weatherdata/adventdalen/adventdalen_weather_data_hour.zip).
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/adventdalen-weather-analysis.git
-   cd adventdalen-weather-analysis
+[https://github.com/orwell2024/UNIS_stations](https://github.com/orwell2024/UNIS_stations)
